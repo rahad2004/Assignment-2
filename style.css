@@ -113,6 +113,7 @@ header .banner .input {
   color: #fff;
   background-color: #ff5400;
   cursor: pointer;
+  
 }
 
 /* popular tour digain */
@@ -157,7 +158,7 @@ header .banner .input {
   font-size: 40px;
   font-weight: 800;
 }
-.choose > p{
+.choose > p {
   text-align: center;
   margin: 24px 0px;
 }
@@ -222,6 +223,211 @@ header .banner .input {
 .img-7 {
   grid-area: g;
   position: relative;
+}
+/* Choose us section start */
+.why-choose-us-container {
+  margin-top: 30px;
+}
+.why-choose-us-container > h1 {
+  text-align: center;
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.why-choose-us-container > p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.why-choose-us h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px 0px;
+}
+.why-choose-us .hotel {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+  grid-area: a;
+}
+.why-choose-us .service {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 30px;
+  grid-area: b;
+}
+.why-choose-us .price {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 30px;
+  grid-area: c;
+}
+.why-choose-us {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 15px;
+  grid-template-areas:
+    " a a a a a a b b b b b b"
+    " . . . c c c c c c . . .";
+}
+/* Discount section */
+.discount {
+  margin-top: 100px;
+}
+.discount h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.discount p {
+  text-align: center;
+}
+/* discount1 start */
+.discount-1 {
+  width: 100%;
+  min-height: 400px;
+  background: url(./Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 55px 0px;
+  margin: 75px 0px;
+  border-radius: 10px;
+}
+.discount-1-body {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 50%;
+  margin-left: 40%;
+  padding: 25px;
+}
+.discount-1-body .ditals {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+.discount-1-body .ditals i {
+  color: #ff5400;
+}
+.discount-1-body > p {
+  text-align: left;
+  margin: 10px 0;
+}
+.discount-1-body > h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.discount-1-body .price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+/* discount 1 end */
+/* discound 2 strat */
+.discount-2 {
+  width: 100%;
+  min-height: 400px;
+  background: url(./Images/Group\ 40.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 55px 0px;
+  margin: 75px 0px;
+  border-radius: 10px;
+}
+.discount-2-body {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 50%;
+  margin-left: 8%;
+  padding: 25px;
+}
+.discount-2-body .ditals {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+.discount-2-body .ditals i {
+  color: #ff5400;
+}
+.discount-2-body > p {
+  text-align: left;
+  margin: 10px 0;
+}
+.discount-2-body > h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.discount-2-body .price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+/* discount 2 end */
+/* discount3 start */
+.discount-3 {
+  width: 100%;
+  min-height: 400px;
+  background: url(./Images/Group\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 55px 0px;
+  margin: 75px 0px;
+  border-radius: 10px;
+}
+.discount-3-body {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 50%;
+  margin-left: 40%;
+  padding: 25px;
+}
+.discount-3-body .ditals {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+.discount-3-body .ditals i {
+  color: #ff5400;
+}
+.discount-3-body > p {
+  text-align: left;
+  margin: 10px 0;
+}
+.discount-3-body > h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.discount-3-body .price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+/* discount 3 end */
+.button{
+  text-align: center;
 }
 @media screen and (max-width: 600px) {
   main,
@@ -295,5 +501,37 @@ header .banner .input {
   }
   .choose .gallary img {
     height: 176px;
+  }
+  .why-choose-us {
+    grid-template-areas:
+      " a a a a a a a a a a a a "
+      " b b b b b b b b b b b b "
+      " c c c c c c c c c c c c ";
+  }
+  .discount-3-body,
+  .discount-2-body,
+  .discount-1-body {
+    width: 80%;
+    margin: 0px auto;
+    padding: 25px;
+  }
+  .discount-3-body .ditals,
+  .discount-2-body .ditals,
+  .discount-1-body .ditals {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .discount-1-body .ditals > p,
+  .discount-2-body .ditals > p,
+  .discount-3-body .ditals > p {
+    margin-bottom: auto;
+  }
+  .discount-1-body  > .pry-button,
+  .discount-2-body  > .pry-button,
+  .discount-3-body  > .pry-button{
+    width: 50%;
+  }
+  .button > .pry-button{
+    width: 50%;
   }
 }
