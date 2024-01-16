@@ -113,7 +113,6 @@ header .banner .input {
   color: #fff;
   background-color: #ff5400;
   cursor: pointer;
-  
 }
 
 /* popular tour digain */
@@ -426,9 +425,45 @@ header .banner .input {
   margin-bottom: 10px;
 }
 /* discount 3 end */
-.button{
+.button {
   text-align: center;
 }
+
+/* parfect place */
+.p-place {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p-ls {
+  width: 50%;
+}
+.p-rs {
+  width: 50%;
+  padding-left: 50px;
+}
+.p-rs .vedio video {
+  border-radius: 10px;
+}
+
+.p-ls > h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.p-ls ul > li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.p-ls ul {
+  padding-left: 20px;
+  margin: 30px 0;
+}
+
 @media screen and (max-width: 600px) {
   main,
   header {
@@ -526,12 +561,23 @@ header .banner .input {
   .discount-3-body .ditals > p {
     margin-bottom: auto;
   }
-  .discount-1-body  > .pry-button,
-  .discount-2-body  > .pry-button,
-  .discount-3-body  > .pry-button{
+  .discount-1-body > .pry-button,
+  .discount-2-body > .pry-button,
+  .discount-3-body > .pry-button {
     width: 50%;
   }
-  .button > .pry-button{
+  .button > .pry-button {
     width: 50%;
+  }
+  .p-place {
+    flex-direction: column;
+  }
+  .p-ls {
+    width: 100%;
+  }
+  .p-rs {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 20px;
   }
 }
