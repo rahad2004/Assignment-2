@@ -687,6 +687,7 @@ footer .fotter-container>p{
     width: 100%;
     margin: 0;
     margin-bottom: 20px;
+    text-align: center;
   }
   .n-rs {
     width: 100%;
@@ -707,4 +708,20 @@ footer .fotter-container>p{
     font-size: 20px;
     font-weight: 800;
   }
+  .text {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 75%;
+    padding: 20px 50px;
+    margin: 20px auto;
+    border: none;
+  }
+  .img-text > h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
