@@ -463,7 +463,107 @@ header .banner .input {
   padding-left: 20px;
   margin: 30px 0;
 }
+.new-letter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.n-ls {
+  width: 40%;
+}
+.n-rs {
+  width: 60%;
+}
+.n-rs img {
+  width: 90%;
+}
+.n-img {
+  position: relative;
+}
+.n-img-banner {
+  background-color: #ff5400;
+  width: 45%;
+  padding: 30px 25px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  bottom: 14%;
+  transform: rotate(-19.628deg);
+}
+.n-img-banner > p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.n-img-banner > h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+.n-ls > h2 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+.n-ls {
+  border: #ff5400 2px solid;
+  padding: 30px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.n-ls > .pry-button {
+  width: 75%;
+  margin: 20px 0;
+}
+.i {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  width: 75%;
+  padding: 20px 50px;
+  margin: 20px 0;
+  border: none;
+}
+/* footer  start */
+footer {
+  min-height: 400px;
+  text-align: center;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 110px 0;
+}
+.fotter-container{
+  max-width: 1440px;
+  width: 40%;
+  margin: 0 auto;
 
+}
+.fotter-container >.nav-ls{
+  display: flex;
+  justify-content: center;
+}
+.fotter-container >.nav-ls > img{
+  width: 10%;
+}
+footer .fotter-container>p{
+  margin: 20px 0;
+}
+.socail-media{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px 0;
+  border-bottom: #1313181A 2px solid ;
+}
+.socail-media a{
+  color: #131318;
+  font-size: 20px;
+}
 @media screen and (max-width: 600px) {
   main,
   header {
@@ -579,5 +679,32 @@ header .banner .input {
     width: 100%;
     padding-left: 0;
     margin-top: 20px;
+  }
+  .new-letter {
+    flex-direction: column;
+  }
+  .n-ls {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .n-rs {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+  }
+  .n-rs img {
+    margin: 0 auto;
+  }
+  .n-img-banner > p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .n-img-banner > h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
   }
 }
